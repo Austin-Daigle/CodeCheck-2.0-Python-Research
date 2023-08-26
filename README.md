@@ -1,2 +1,7 @@
 # CodeCheck-2.0-Python-Research
-This is current ongoing research of CodeCheck 2.0 from the prior deprecated builds of CodeCheck 2.0. 
+
+Abstract:
+Textual similarity has many applications within the world of computer science, with general and
+specific applications with academic integrity, general software feature augmentation, and data
+analysis within specific fields. This project aims to make an open-source, lightweight textual
+similarity algorithm for multiple applications
