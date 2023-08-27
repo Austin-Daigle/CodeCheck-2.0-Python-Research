@@ -155,13 +155,14 @@ follows: machine-generated test cases and their respective HTML comparisons are 
 the left, accompanied by an image illustrating the HTML rendering. The output data generated
 by the CodeCheck 2.0 application based on the provided inputs are presented on the right.
 
-
+<br>
 
 | These are the prompts used to generate test cases (GPT-3.5 Legacy):                                                                                                                                                              |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Get a short random sentence and print it out, then plagiarize that sentence (avoid changing thesentence structure, just change a few words) and print the results. Also, give the link to the page where the sentence was found. |
 | Generate two stands of DNA of 36 characters with a space between every four characters and a shared gene of four characters between then                                                                                         |
 | make a few lines of Python code and print it out, then plagiarize that code (avoid changing the structure, just change a few words) and print the results.                                                                       |
+<br>
 
 | This prompt was used to create the html references:                                                                                                                           |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
