@@ -103,3 +103,60 @@ getSimilarityHTML() function.
 calculatePercentage() function.
 8. Compile the results into a single list and return it
 ```
+
+Please note that this pseudocode omits the implementations of the majority of variables, helpers
+functions, objects, methods, and internal structures/processes outside of broad strokes in order to
+keep the conceptual flow and length reasonable yet still relevant to the overall primary algorithm
+function of CodeCheck2 method.
+This pseudocode assumes that inputA and inputB are provided when calling the CodeCheck2
+function. To use the pseudocode for any arbitrary inputs, replace the inputs in step 3 with the
+desired input strings.
+
+**The Code**
+The source code for the CodeCheck library is not included directly, as it is already
+integrated within the application source code as part of its core analytical processes. A ported,
+optimized version of CodeCheck 1.0 is incorporated into the library and the application under
+"CodeCheck Legacy." The complete source code for the standalone CodeCheck 2.0 application,
+including the graphical user interface, is provided below. Also, the raw source code with 
+no application/GUI is included below for refference.
+
+The application is called CodeCheck 2.0, as this represents its primary function, along with the
+legacy build. However, the application is considered version 1.0, as this number denotes the
+current version of the code managing the graphical user interface rather than the actual version of
+the CodeCheck algorithm(s).
+
+[CodeCheck 2.0 Application Source Code (Version 1.0)](https://github.com/Austin-Daigle/CodeCheck-2.0-Python-Research/blob/main/CodeCheck%202.0%20Application%20(Version%201.0).py)
+[CodeCheck 2.0 Library Source Code (Version 1.0)](https://github.com/Austin-Daigle/CodeCheck-2.0-Python-Research/blob/main/CodeCheckLibrary.py)
+
+**Conclusion**
+This research project has successfully developed an open-source, lightweight textual
+similarity algorithm that is versatile and applicable to multiple fields with various use cases
+without requiring external services, AI, machine learning, or proprietary software. The algorithm
+has successfully addressed the intended applications, such as anti-plagiarism (textual similarity
+analysis), repetitive file name detection, biometric data analysis, and textual similarity. The
+project has been optimized to cater to technical and non-technical researchers and users, making
+it easily integrated into existing Python projects.
+
+**Referrences**
+The core code for CodeCheck 2.0 and Legacy does not rely on external sources to design
+and construct the core algorithm. However, the CodeCheck 2.0 application utilizes the following
+external dependencies for the graphical user interface: PyQt5, QtCore, QtGui, QtWidgets,
+tkinter, messagebox from tkinter, and webbrowser. Each of these external Python packages is
+referenced on the works cited page.
+
+**Works Cited**
+Developers, Staff. “Machine Generated Test Cases.” ChatGPT3.5, OpenAI, 2022,
+https://chat.openai.com/.
+Developers, Staff. “Machine Generated HTML Test Case references.” ChatGPT4, OpenAI,
+2023, https://chat.openai.com/.
+Group, Qt. “PYQT5.” PyPI, Qt Group, 1995, https://pypi.org/project/PyQt5/.
+Group, Qt. “PySide2.QtCore.” PySide2.QtCore - Qt for Python, Qt Group, 21 Apr. 2016,
+https://doc.qt.io/qtforpython-5/PySide2/QtCore/index.html.
+Group, Qt. “PySide6.QtWidgets#.” PySide6.QtWidgets - Qt for Python, Qt Group, 1995,
+https://doc.qt.io/qtforpython-6/PySide6/QtWidgets/index.html.
+Group, Qt. “Qt Gui.” Qt Documentation, Qt Group, 2018, https://doc.qt.io/qt-5/qtgui-index.html.
+Lumholt, Steen, and Guido van Rossum. “Tkinter - Python Interface to TCL/TK.” Edited by
+Fredrik Lundh, Python Documentation, Python Software Foundation, 1999,
+https://docs.python.org/3/library/tkinter.html.
+Staff, Developer. “Webbrowser - Convenient Web-Browser Controller.” Python Documentation,
+Python Software Foundation, 2000, https://docs.python.org/3/library/webbrowser.html. 
