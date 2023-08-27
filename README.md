@@ -61,7 +61,7 @@ The primary distinction between the CodeCheck 2.0 library and the user applicati
 that the application contains additional code to manage the graphical user interface. At the same
 time, the core algorithm remains the same.
 
-**Research Project achievements**
+**Research Project achievements:**
 
 During the research for this project, the following steps were completed to fulfill the
 original purpose and project proposal:
@@ -84,7 +84,7 @@ a streamlined library.
 11. Conducted final fine-tuning of all code and documented the development progress in a
 comprehensive write-up.
 
-**Pseudocode**
+**Pseudocode:**
 
 ```
 1. Define the findSharedPatterns() function.
