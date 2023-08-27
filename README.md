@@ -81,3 +81,25 @@ a streamlined library.
 10. Developed a graphical user interface using the PyQT5 graphical Python libraries.
 11. Conducted final fine-tuning of all code and documented the development progress in a
 comprehensive write-up.
+
+**Pseudocode**
+
+```
+1. Define the findSharedPatterns() function.
+2. Define the CodeCheck2() function.
+3. Call CodeCheck2() with inputs inputA and inputB:
+1. Tokenize inputA and inputB into lists of words and punctuation.
+2. Create a list of unprocessed patterns by calling findSharedPatterns() with
+tokenized inputA and inputB.
+3. Process the list of unprocessed patterns using helper functions processList(),
+removeAPairUnderlaps(), removeBPairUnderlaps(), and
+removeEmptyPatterns().
+4. Initialize the filteredAStream and filteredBStream lists.
+5. Iterate through the processed patterns and append the corresponding token pairs
+to the filteredAStream and filteredBStream.
+6. Get similarity formatted HTML for both inputs using the
+getSimilarityHTML() function.
+7. Calculate similarity percentage scores for both inputs using the
+calculatePercentage() function.
+8. Compile the results into a single list and return it
+```
