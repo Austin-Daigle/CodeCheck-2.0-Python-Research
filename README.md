@@ -163,6 +163,11 @@ by the CodeCheck 2.0 application based on the provided inputs are presented on t
 | Generate two stands of DNA of 36 characters with a space between every four characters and a shared gene of four characters between then                                                                                         |
 | make a few lines of Python code and print it out, then plagiarize that code (avoid changing the structure, just change a few words) and print the results.                                                                       |
 
+| This prompt was used to create the html references:                                                                                                                           |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| This prompt was also modified to have the “sentences” portion of the prompt changed to code or DNA sequences for the other tests.                                             |
+| Take in these two sentences and for all of the text matched between them surround that text with a highlight tag in HTML and then both sentences out:  sentence1:  sentence2: |
+
 ![image](https://github.com/Austin-Daigle/CodeCheck-2.0-Python-Research/assets/100094056/6cbdb213-0b6f-45e4-9e99-dc96dacddb77)
 
 ![image](https://github.com/Austin-Daigle/CodeCheck-2.0-Python-Research/assets/100094056/e9af2acf-3ac2-4ac5-aa58-1fb92a616aae)
