@@ -6,7 +6,10 @@
 * [Abstract](#Abstract)
 * [Introduction](#Introduction)
 * [Background](#Background)
+* [Project Description](#Project_Description)
 * [Research Project Achievements](#Research_Project_Achievements)
+* [Pseudocode](#Pseudocode)
+* [The Code](#The_Code)
 * [Test Cases](#Test_Cases)
 * [References](#References)
 * [Works Cited](#Works_Cited)
@@ -232,7 +235,7 @@ external dependencies for the graphical user interface: PyQt5, QtCore, QtGui, Qt
 tkinter, messagebox from tkinter, and webbrowser. Each of these external Python packages is
 referenced on the works cited page.
 
-<a id="Works Cited"></a>
+<a id="Works_Cited"></a>
 **Works Cited:**
 
 Developers, Staff. “Machine Generated Test Cases.” ChatGPT3.5, OpenAI, 2022,
