@@ -6,10 +6,10 @@
 * [Abstract](#Abstract)
 * [Introduction](#Introduction)
 * [Background](#Background)
-* [Research Project Achievements](#Research Project Achievements)
-* [Test Cases](#Test Cases)
+* [Research Project Achievements](#Research_Project_Achievements)
+* [Test Cases](#Test_Cases)
 * [References](#References)
-* [Works Cited](#Works Cited)
+* [Works Cited](#Works_Cited)
 
 ***
 
@@ -65,7 +65,7 @@ frequency rather than usage patterns. As a result, CodeCheck 2.0 was conceived t
 shortcomings of the original (legacy) algorithm, providing a solution that can be effortlessly
 integrated into an array of computer science applications.
 
-<a id="Project Description"></a>
+<a id="Project_Description"></a>
 **Project Description:**
 
 The core algorithm of CodeCheck 2.0 consists of three primary components: the
@@ -88,7 +88,7 @@ The primary distinction between the CodeCheck 2.0 library and the user applicati
 that the application contains additional code to manage the graphical user interface. At the same
 time, the core algorithm remains the same.
 
-<a id="Research Project Achievements"></a>
+<a id="Research_Project_Achievements"></a>
 **Research Project Achievements:**
 
 During the research for this project, the following steps were completed to fulfill the
@@ -143,7 +143,7 @@ This pseudocode assumes that inputA and inputB are provided when calling the Cod
 function. To use the pseudocode for any arbitrary inputs, replace the inputs in step 3 with the
 desired input strings.
 
-<a id="The Code"></a>
+<a id="The_Code"></a>
 **The Code:**
 
 The source code for the CodeCheck library is not included directly, as it is already
@@ -162,7 +162,7 @@ the CodeCheck algorithm(s).
 
 [CodeCheck 2.0 Library Source Code (Version 1.0)](https://github.com/Austin-Daigle/CodeCheck-2.0-Python-Research/blob/main/CodeCheckLibrary.py)
 
-<a id="Test Cases"></a>
+<a id="Test_Cases"></a>
 **Test Cases:**
 
 OpenAI's GPT-3.5 (Deprecated) and 4.0 API Models were utilized to generate test cases and
