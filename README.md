@@ -101,7 +101,7 @@ comprehensive write-up.
 
 **Pseudocode:**
 
-```
+~~~~
 1. Define the findSharedPatterns() function.
 2. Define the CodeCheck2() function.
 3. Call CodeCheck2() with inputs inputA and inputB:
@@ -119,7 +119,7 @@ getSimilarityHTML() function.
 7. Calculate similarity percentage scores for both inputs using the
 calculatePercentage() function.
 8. Compile the results into a single list and return it
-```
+~~~~
 
 Please note that this pseudocode omits the implementations of the majority of variables, helpers
 functions, objects, methods, and internal structures/processes outside of broad strokes in order to
