@@ -1,6 +1,20 @@
 <a id="top"></a>
 # CodeCheck 2.0 Python Research
 
+**Table of Contents:**
+* [Summary](#Summary)
+* Abstract
+* Introduction
+* Background
+* Research Project Achievements
+* Test Cases
+* Referrences
+* Works Cited
+
+***
+
+
+<a id="Summary"></a>
 **Project Summary:**
 
 CodeCheck 2.0 is an advanced textual pattern recognition algorithm designed for string analysis. It operates by examining two input strings, identifying distinctive patterns present within the shared tokens of these inputs. The algorithm then produces reports detailing the extent of similarity, along with comprehensive metadata describing the nature of the similarities detected.
@@ -9,11 +23,6 @@ This software iteration has its origins in its predecessor, CodeCheck 1.0, which
 
 The migration to Python was driven by the desire to leverage more efficient allocation of computational resources and the utilization of contemporary libraries. The redesigned CodeCheck 2.0 harnesses the capabilities of Python to achieve enhanced performance and resource management. The application is accessible in two main forms: a standalone Python application that includes a graphical user interface (GUI), and a version tailored for developers and researchers, packaged for ease of use in their respective workflows.
 
-# Table of Contents:
-* Summary
-
-
-[click me](#top)
 
 **Abstract:**
 
@@ -76,7 +85,7 @@ The primary distinction between the CodeCheck 2.0 library and the user applicati
 that the application contains additional code to manage the graphical user interface. At the same
 time, the core algorithm remains the same.
 
-**Research Project achievements:**
+**Research Project Achievements:**
 
 During the research for this project, the following steps were completed to fulfill the
 original purpose and project proposal:
