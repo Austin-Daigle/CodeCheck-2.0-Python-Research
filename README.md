@@ -132,6 +132,7 @@ the CodeCheck algorithm(s).
 [CodeCheck 2.0 Library Source Code (Version 1.0)](https://github.com/Austin-Daigle/CodeCheck-2.0-Python-Research/blob/main/CodeCheckLibrary.py)
 
 **Conclusion:**
+
 This research project has successfully developed an open-source, lightweight textual
 similarity algorithm that is versatile and applicable to multiple fields with various use cases
 without requiring external services, AI, machine learning, or proprietary software. The algorithm
@@ -141,6 +142,7 @@ project has been optimized to cater to technical and non-technical researchers a
 it easily integrated into existing Python projects.
 
 **Referrences:**
+
 The core code for CodeCheck 2.0 and Legacy does not rely on external sources to design
 and construct the core algorithm. However, the CodeCheck 2.0 application utilizes the following
 external dependencies for the graphical user interface: PyQt5, QtCore, QtGui, QtWidgets,
@@ -148,6 +150,7 @@ tkinter, messagebox from tkinter, and webbrowser. Each of these external Python 
 referenced on the works cited page.
 
 **Works Cited:**
+
 Developers, Staff. “Machine Generated Test Cases.” ChatGPT3.5, OpenAI, 2022,
 https://chat.openai.com/.
 
