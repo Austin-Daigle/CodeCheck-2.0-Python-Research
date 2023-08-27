@@ -4,12 +4,12 @@
 **Table of Contents:**
 * [Summary](#Summary)
 * [Abstract](#Abstract)
-* Introduction
-* Background
-* Research Project Achievements
-* Test Cases
-* References
-* Works Cited
+* [Introduction](#Introduction)
+* [Background](#Background)
+* [Research Project Achievements](#Research Project Achievements)
+* [Test Cases](#Test Cases)
+* [References](#References)
+* [Works Cited](#Works Cited)
 
 ***
 
