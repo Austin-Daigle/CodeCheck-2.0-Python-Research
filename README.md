@@ -132,6 +132,45 @@ the CodeCheck algorithm(s).
 
 [CodeCheck 2.0 Library Source Code (Version 1.0)](https://github.com/Austin-Daigle/CodeCheck-2.0-Python-Research/blob/main/CodeCheckLibrary.py)
 
+**Test Cases:**
+
+OpenAI's GPT-3.5 (Deprecated) and 4.0 API Models were utilized to generate test cases and
+corresponding HTML similarity comparisons for evaluation purposes. Due to the inherent
+characteristics of these advanced large language models with natural language processing
+capabilities, there may be minor or significant discrepancies in the machine-generated HTML
+comparisons. It is important to note that these machine-generated comparisons should be
+regarded as an additional reference for the outputs of CodeCheck 2.0 (OpenAI’s Terms of
+Service and user disclaimers even recommend that end user exercise discretion with model
+outputs as its outputs may be completely inaccurate or false and also somewhat unpredictable),
+not definitive results. OpenAI's products were employed in this instance to produce test cases
+and reference HTML comparisons, owing to a non-availability of available model data
+concerning plagiarized code, text samples, and biometric data. Both models have been cited in
+the works cited section. The prompts for generating the test cases and references have been
+included below.
+
+
+The following are six test cases demonstrating the functionality of CodeCheck 2.0, including
+similarity analysis for plain text, biometric data (DNA), and code. Each test case is structured as
+follows: machine-generated test cases and their respective HTML comparisons are displayed on
+the left, accompanied by an image illustrating the HTML rendering. The output data generated
+by the CodeCheck 2.0 application based on the provided inputs are presented on the right.
+
+
+![image](https://github.com/Austin-Daigle/CodeCheck-2.0-Python-Research/assets/100094056/3253379a-42de-4350-a2fc-117cc050dbc0)
+
+![image](https://github.com/Austin-Daigle/CodeCheck-2.0-Python-Research/assets/100094056/6cbdb213-0b6f-45e4-9e99-dc96dacddb77)
+
+![image](https://github.com/Austin-Daigle/CodeCheck-2.0-Python-Research/assets/100094056/e9af2acf-3ac2-4ac5-aa58-1fb92a616aae)
+
+![image](https://github.com/Austin-Daigle/CodeCheck-2.0-Python-Research/assets/100094056/8da671a9-ae79-4b98-b0ab-330b59fdaa3e)
+
+![image](https://github.com/Austin-Daigle/CodeCheck-2.0-Python-Research/assets/100094056/9e92d9a9-33b6-45b7-9aba-c4d01a271a41)
+
+![image](https://github.com/Austin-Daigle/CodeCheck-2.0-Python-Research/assets/100094056/7c5104a3-72cf-4d51-b9a9-774bcbd00131)
+
+![image](https://github.com/Austin-Daigle/CodeCheck-2.0-Python-Research/assets/100094056/4a6e92f2-c0ea-42b5-8144-4f0ce5b6701f)
+
+
 **Conclusion:**
 
 This research project has successfully developed an open-source, lightweight textual
