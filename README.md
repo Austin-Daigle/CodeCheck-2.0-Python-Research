@@ -1,4 +1,4 @@
-# CodeCheck-2.0 Python Research
+# CodeCheck 2.0 Python Research
 
 **Abstract:**
 
