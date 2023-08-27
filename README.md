@@ -156,7 +156,12 @@ the left, accompanied by an image illustrating the HTML rendering. The output da
 by the CodeCheck 2.0 application based on the provided inputs are presented on the right.
 
 
-![image](https://github.com/Austin-Daigle/CodeCheck-2.0-Python-Research/assets/100094056/3253379a-42de-4350-a2fc-117cc050dbc0)
+
+| These are the prompts used to generate test cases (GPT-3.5 Legacy):                                                                                                                                                              |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Get a short random sentence and print it out, then plagiarize that sentence (avoid changing thesentence structure, just change a few words) and print the results. Also, give the link to the page where the sentence was found. |
+| Generate two stands of DNA of 36 characters with a space between every four characters and a shared gene of four characters between then                                                                                         |
+| make a few lines of Python code and print it out, then plagiarize that code (avoid changing the structure, just change a few words) and print the results.                                                                       |
 
 ![image](https://github.com/Austin-Daigle/CodeCheck-2.0-Python-Research/assets/100094056/6cbdb213-0b6f-45e4-9e99-dc96dacddb77)
 
