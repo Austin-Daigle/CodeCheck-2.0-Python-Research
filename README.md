@@ -3,12 +3,12 @@
 
 **Table of Contents:**
 * [Summary](#Summary)
-* Abstract
+* [Abstract](#Abstract)
 * Introduction
 * Background
 * Research Project Achievements
 * Test Cases
-* Referrences
+* References
 * Works Cited
 
 ***
@@ -23,7 +23,7 @@ This software iteration has its origins in its predecessor, CodeCheck 1.0, which
 
 The migration to Python was driven by the desire to leverage more efficient allocation of computational resources and the utilization of contemporary libraries. The redesigned CodeCheck 2.0 harnesses the capabilities of Python to achieve enhanced performance and resource management. The application is accessible in two main forms: a standalone Python application that includes a graphical user interface (GUI), and a version tailored for developers and researchers, packaged for ease of use in their respective workflows.
 
-
+<a id="Abstract"></a>
 **Abstract:**
 
 Textual similarity has many applications within the world of computer science, with general and
@@ -31,6 +31,7 @@ specific applications with academic integrity, general software feature augmenta
 analysis within specific fields. This project aims to make an open-source, lightweight textual
 similarity algorithm for multiple applications.
 
+<a id="Introduction"></a>
 **Introduction:**
 
 In recent years, the need for a lightweight, efficient, and accurate textual similarity
@@ -53,6 +54,7 @@ reliance on external software products, algorithms, machine learning, or artific
 except for default Python 3 libraries and necessary external graphical packages for standalone
 applications.
 
+<a id="Background"></a>
 **Background:**
 
 Assessing and establishing both relative and absolute similarities between two sets of
@@ -63,6 +65,7 @@ frequency rather than usage patterns. As a result, CodeCheck 2.0 was conceived t
 shortcomings of the original (legacy) algorithm, providing a solution that can be effortlessly
 integrated into an array of computer science applications.
 
+<a id="Project Description"></a>
 **Project Description:**
 
 The core algorithm of CodeCheck 2.0 consists of three primary components: the
@@ -85,6 +88,7 @@ The primary distinction between the CodeCheck 2.0 library and the user applicati
 that the application contains additional code to manage the graphical user interface. At the same
 time, the core algorithm remains the same.
 
+<a id="Research Project Achievements"></a>
 **Research Project Achievements:**
 
 During the research for this project, the following steps were completed to fulfill the
@@ -108,6 +112,7 @@ a streamlined library.
 11. Conducted final fine-tuning of all code and documented the development progress in a
 comprehensive write-up.
 
+<a id="Pseudocode"></a>
 **Pseudocode:**
 
 ~~~~
@@ -138,6 +143,7 @@ This pseudocode assumes that inputA and inputB are provided when calling the Cod
 function. To use the pseudocode for any arbitrary inputs, replace the inputs in step 3 with the
 desired input strings.
 
+<a id="The Code"></a>
 **The Code:**
 
 The source code for the CodeCheck library is not included directly, as it is already
@@ -156,6 +162,7 @@ the CodeCheck algorithm(s).
 
 [CodeCheck 2.0 Library Source Code (Version 1.0)](https://github.com/Austin-Daigle/CodeCheck-2.0-Python-Research/blob/main/CodeCheckLibrary.py)
 
+<a id="Test Cases"></a>
 **Test Cases:**
 
 OpenAI's GPT-3.5 (Deprecated) and 4.0 API Models were utilized to generate test cases and
@@ -205,7 +212,7 @@ by the CodeCheck 2.0 application based on the provided inputs are presented on t
 
 ![image](https://github.com/Austin-Daigle/CodeCheck-2.0-Python-Research/assets/100094056/4a6e92f2-c0ea-42b5-8144-4f0ce5b6701f)
 
-
+<a id="Conclusion"></a>
 **Conclusion:**
 
 This research project has successfully developed an open-source, lightweight textual
@@ -216,7 +223,8 @@ analysis), repetitive file name detection, biometric data analysis, and textual 
 project has been optimized to cater to technical and non-technical researchers and users, making
 it easily integrated into existing Python projects.
 
-**Referrences:**
+<a id="References"></a>
+**References:**
 
 The core code for CodeCheck 2.0 and Legacy does not rely on external sources to design
 and construct the core algorithm. However, the CodeCheck 2.0 application utilizes the following
@@ -224,6 +232,7 @@ external dependencies for the graphical user interface: PyQt5, QtCore, QtGui, Qt
 tkinter, messagebox from tkinter, and webbrowser. Each of these external Python packages is
 referenced on the works cited page.
 
+<a id="Works Cited"></a>
 **Works Cited:**
 
 Developers, Staff. “Machine Generated Test Cases.” ChatGPT3.5, OpenAI, 2022,
