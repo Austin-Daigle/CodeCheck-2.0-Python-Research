@@ -10,6 +10,7 @@ This software iteration has its origins in its predecessor, CodeCheck 1.0, which
 The migration to Python was driven by the desire to leverage more efficient allocation of computational resources and the utilization of contemporary libraries. The redesigned CodeCheck 2.0 harnesses the capabilities of Python to achieve enhanced performance and resource management. The application is accessible in two main forms: a standalone Python application that includes a graphical user interface (GUI), and a version tailored for developers and researchers, packaged for ease of use in their respective workflows.
 
 [click me](#top)
+
 **Abstract:**
 
 Textual similarity has many applications within the world of computer science, with general and
