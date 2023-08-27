@@ -7,7 +7,7 @@ specific applications with academic integrity, general software feature augmenta
 analysis within specific fields. This project aims to make an open-source, lightweight textual
 similarity algorithm for multiple applications.
 
-**Introduction**
+**Introduction:**
 
 In recent years, the need for a lightweight, efficient, and accurate textual similarity
 detection algorithm has grown significantly due to the increased importance of identifying
@@ -29,7 +29,7 @@ reliance on external software products, algorithms, machine learning, or artific
 except for default Python 3 libraries and necessary external graphical packages for standalone
 applications.
 
-**Background**
+**Background:**
 
 Assessing and establishing both relative and absolute similarities between two sets of
 strings is of vital importance for a wide range of applications in the field of computer science.
@@ -39,7 +39,7 @@ frequency rather than usage patterns. As a result, CodeCheck 2.0 was conceived t
 shortcomings of the original (legacy) algorithm, providing a solution that can be effortlessly
 integrated into an array of computer science applications.
 
-**Project Description**
+**Project Description:**
 
 The core algorithm of CodeCheck 2.0 consists of three primary components: the
 tokenizer, the token pattern sequencers, and the token pattern recognition parser with a similarity
@@ -51,10 +51,12 @@ Subsequently, the token pattern recognition parser examines the pattern streams 
 input B, identifying shared patterns of two or more tokens in sequential order present in both
 pattern streams. Irrelevancies, overlaps, and underlaps are processed and removed to ensure the
 accuracy of the analysis.
+
 The final component processes the filtered streams for both inputs, calculating the
 relative similarity percentages for each input concerning the other. An HTML-formatted string is
 generated, displaying the matching text with highlights alongside the plain non-matching text for
 each input.
+
 The primary distinction between the CodeCheck 2.0 library and the user application is
 that the application contains additional code to manage the graphical user interface. At the same
 time, the core algorithm remains the same.
@@ -112,7 +114,8 @@ This pseudocode assumes that inputA and inputB are provided when calling the Cod
 function. To use the pseudocode for any arbitrary inputs, replace the inputs in step 3 with the
 desired input strings.
 
-**The Code**
+**The Code:**
+
 The source code for the CodeCheck library is not included directly, as it is already
 integrated within the application source code as part of its core analytical processes. A ported,
 optimized version of CodeCheck 1.0 is incorporated into the library and the application under
@@ -128,7 +131,7 @@ the CodeCheck algorithm(s).
 [CodeCheck 2.0 Application Source Code (Version 1.0)](https://github.com/Austin-Daigle/CodeCheck-2.0-Python-Research/blob/main/CodeCheck%202.0%20Application%20(Version%201.0).py)
 [CodeCheck 2.0 Library Source Code (Version 1.0)](https://github.com/Austin-Daigle/CodeCheck-2.0-Python-Research/blob/main/CodeCheckLibrary.py)
 
-**Conclusion**
+**Conclusion:**
 This research project has successfully developed an open-source, lightweight textual
 similarity algorithm that is versatile and applicable to multiple fields with various use cases
 without requiring external services, AI, machine learning, or proprietary software. The algorithm
@@ -137,26 +140,31 @@ analysis), repetitive file name detection, biometric data analysis, and textual 
 project has been optimized to cater to technical and non-technical researchers and users, making
 it easily integrated into existing Python projects.
 
-**Referrences**
+**Referrences:**
 The core code for CodeCheck 2.0 and Legacy does not rely on external sources to design
 and construct the core algorithm. However, the CodeCheck 2.0 application utilizes the following
 external dependencies for the graphical user interface: PyQt5, QtCore, QtGui, QtWidgets,
 tkinter, messagebox from tkinter, and webbrowser. Each of these external Python packages is
 referenced on the works cited page.
 
-**Works Cited**
+**Works Cited:**
 Developers, Staff. “Machine Generated Test Cases.” ChatGPT3.5, OpenAI, 2022,
 https://chat.openai.com/.
+
 Developers, Staff. “Machine Generated HTML Test Case references.” ChatGPT4, OpenAI,
 2023, https://chat.openai.com/.
+
 Group, Qt. “PYQT5.” PyPI, Qt Group, 1995, https://pypi.org/project/PyQt5/.
 Group, Qt. “PySide2.QtCore.” PySide2.QtCore - Qt for Python, Qt Group, 21 Apr. 2016,
 https://doc.qt.io/qtforpython-5/PySide2/QtCore/index.html.
+
 Group, Qt. “PySide6.QtWidgets#.” PySide6.QtWidgets - Qt for Python, Qt Group, 1995,
 https://doc.qt.io/qtforpython-6/PySide6/QtWidgets/index.html.
+
 Group, Qt. “Qt Gui.” Qt Documentation, Qt Group, 2018, https://doc.qt.io/qt-5/qtgui-index.html.
 Lumholt, Steen, and Guido van Rossum. “Tkinter - Python Interface to TCL/TK.” Edited by
 Fredrik Lundh, Python Documentation, Python Software Foundation, 1999,
 https://docs.python.org/3/library/tkinter.html.
+
 Staff, Developer. “Webbrowser - Convenient Web-Browser Controller.” Python Documentation,
 Python Software Foundation, 2000, https://docs.python.org/3/library/webbrowser.html. 
