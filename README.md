@@ -17,7 +17,6 @@
 
 ***
 
-
 <a id="Summary"></a>
 **Project Summary:**
 
@@ -27,7 +26,9 @@ This software iteration has its origins in its predecessor, CodeCheck 1.0, which
 
 The migration to Python was driven by the desire to leverage more efficient allocation of computational resources and the utilization of contemporary libraries. The redesigned CodeCheck 2.0 harnesses the capabilities of Python to achieve enhanced performance and resource management. The application is accessible in two main forms: a standalone Python application that includes a graphical user interface (GUI), and a version tailored for developers and researchers, packaged for ease of use in their respective workflows.
 
-
+[Top of Page](#top)
+<br>
+<br>
 
 <a id="Abstract"></a>
 **Abstract:**
@@ -37,6 +38,9 @@ specific applications with academic integrity, general software feature augmenta
 analysis within specific fields. This project aims to make an open-source, lightweight textual
 similarity algorithm for multiple applications.
 
+[Top of Page](#top)
+<br>
+<br>
 <a id="Introduction"></a>
 **Introduction:**
 
@@ -60,6 +64,9 @@ reliance on external software products, algorithms, machine learning, or artific
 except for default Python 3 libraries and necessary external graphical packages for standalone
 applications.
 
+[Top of Page](#top)
+<br>
+<br>
 <a id="Background"></a>
 **Background:**
 
@@ -70,6 +77,10 @@ and accuracy issues were uncovered after its development, as it primarily analyz
 frequency rather than usage patterns. As a result, CodeCheck 2.0 was conceived to address the
 shortcomings of the original (legacy) algorithm, providing a solution that can be effortlessly
 integrated into an array of computer science applications.
+
+[Top of Page](#top)
+<br>
+<br>
 
 <a id="Project_Description"></a>
 **Project Description:**
@@ -94,6 +105,10 @@ The primary distinction between the CodeCheck 2.0 library and the user applicati
 that the application contains additional code to manage the graphical user interface. At the same
 time, the core algorithm remains the same.
 
+[Top of Page](#top)
+<br>
+<br>
+
 <a id="Research_Project_Achievements"></a>
 **Research Project Achievements:**
 
@@ -117,6 +132,10 @@ a streamlined library.
 10. Developed a graphical user interface using the PyQT5 graphical Python libraries.
 11. Conducted final fine-tuning of all code and documented the development progress in a
 comprehensive write-up.
+
+[Top of Page](#top)
+<br>
+<br>
 
 <a id="Pseudocode"></a>
 **Pseudocode:**
@@ -149,6 +168,10 @@ This pseudocode assumes that inputA and inputB are provided when calling the Cod
 function. To use the pseudocode for any arbitrary inputs, replace the inputs in step 3 with the
 desired input strings.
 
+[Top of Page](#top)
+<br>
+<br>
+
 <a id="The_Code"></a>
 **The Code:**
 
@@ -167,6 +190,10 @@ the CodeCheck algorithm(s).
 [CodeCheck 2.0 Application Source Code (Version 1.0)](https://github.com/Austin-Daigle/CodeCheck-2.0-Python-Research/blob/main/CodeCheck%202.0%20Application%20(Version%201.0).py)
 
 [CodeCheck 2.0 Library Source Code (Version 1.0)](https://github.com/Austin-Daigle/CodeCheck-2.0-Python-Research/blob/main/CodeCheckLibrary.py)
+
+[Top of Page](#top)
+<br>
+<br>
 
 <a id="Test_Cases"></a>
 **Test Cases:**
@@ -192,6 +219,8 @@ follows: machine-generated test cases and their respective HTML comparisons are 
 the left, accompanied by an image illustrating the HTML rendering. The output data generated
 by the CodeCheck 2.0 application based on the provided inputs are presented on the right.
 
+[Top of Page](#top)
+<br>
 <br>
 
 | These are the prompts used to generate test cases (GPT-3.5 Legacy):                                                                                                                                                              |
@@ -218,6 +247,9 @@ by the CodeCheck 2.0 application based on the provided inputs are presented on t
 
 ![image](https://github.com/Austin-Daigle/CodeCheck-2.0-Python-Research/assets/100094056/4a6e92f2-c0ea-42b5-8144-4f0ce5b6701f)
 
+[Top of Page](#top)
+<br>
+<br>
 <a id="Conclusion"></a>
 **Conclusion:**
 
@@ -229,6 +261,10 @@ analysis), repetitive file name detection, biometric data analysis, and textual 
 project has been optimized to cater to technical and non-technical researchers and users, making
 it easily integrated into existing Python projects.
 
+[Top of Page](#top)
+<br>
+<br>
+
 <a id="References"></a>
 **References:**
 
@@ -237,6 +273,10 @@ and construct the core algorithm. However, the CodeCheck 2.0 application utilize
 external dependencies for the graphical user interface: PyQt5, QtCore, QtGui, QtWidgets,
 tkinter, messagebox from tkinter, and webbrowser. Each of these external Python packages is
 referenced on the works cited page.
+
+[Top of Page](#top)
+<br>
+<br>
 
 <a id="Works_Cited"></a>
 **Works Cited:**
@@ -261,3 +301,7 @@ https://docs.python.org/3/library/tkinter.html.
 
 Staff, Developer. “Webbrowser - Convenient Web-Browser Controller.” Python Documentation,
 Python Software Foundation, 2000, https://docs.python.org/3/library/webbrowser.html. 
+
+[Top of Page](#top)
+<br>
+<br>
