@@ -10,8 +10,8 @@
 * [Research Project Achievements](#Research_Project_Achievements)
 * [Pseudocode](#Pseudocode)
 * [The Code](#The_Code)
-* [Conclusion](#Conclusion)
 * [Test Cases](#Test_Cases)
+* [Conclusion](#Conclusion)
 * [References](#References)
 * [Works Cited](#Works_Cited)
 
